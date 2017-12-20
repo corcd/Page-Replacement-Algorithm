@@ -70,6 +70,7 @@ void LRU(int num)
         {
             //if there are free frames in memory, the pages can be loaded into frames directly.
             //added code
+            lost++;
             Inside[counter] = Page[num];
             counter++;
             //***********
@@ -105,6 +106,7 @@ void FIFO(int num)
         {
             //if there are free frames in memory, the pages can be loaded into frames directly.
             //added code
+            lost++;
             Inside[counter] = Page[num];
             counter++;
             //***********
@@ -158,6 +160,7 @@ void MIN(int num)
         {
             //if there are free frames in memory, the pages can be loaded into frames directly.
             //added code
+            lost++;
             Inside[counter] = Page[num];
             counter++;
             //***********
