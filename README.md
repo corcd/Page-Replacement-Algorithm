@@ -1,2 +1,6 @@
 # Page-Replacement-Algorithm
-common course's task
+### 1. OPT (MIN)
+### 2. FIFO
+### 3. LRU
+
+
